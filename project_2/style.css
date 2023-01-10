@@ -348,16 +348,6 @@ body {
     position: relative;
    
 }
-/* .section-5::before{
-    content: "";
-    position: absolute;
-    bottom: -100px;
-    left: 100px;
-    width: 90%;
-    border: 7px solid ;
-} */
-
-
 
 .section-5-top{
     margin: 100px;
@@ -387,7 +377,7 @@ body {
     
 }
 .black{
-    background-color: rgb(236, 98, 98);
+    background-color: #ec6262;
     height: 300px;
     width: 40%;
     display: flex;
@@ -396,7 +386,7 @@ body {
     row-gap: 20px;
     padding: 20px;
     background-color: #000000;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     border-radius: 10px;
     
 }
@@ -410,7 +400,7 @@ body {
 }
 .white{
     background-color: #fff;
-    color: black;
+    color: #000000;
 }
 .section-6{
     height: 80vh;
@@ -486,4 +476,9 @@ body {
     margin-left: 300px;
     margin-top: 35px;
     bottom: 100px;
+}
+@media (max-width:1560px) {
+    header{
+        padding: 5px;
+    }
 }
