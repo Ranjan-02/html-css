@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header-hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Assets/Photos/futuristic-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.navbar{
+    padding: 50px 50px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-left li{
+    list-style: none;
+    cursor: pointer;
+}
+.navbar-left li:hover{
+    color: aqua;
+}
+.navbar-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.btn{
+    height: 40px;
+    width: auto;
+    padding:0px 30px;
+    color: #ffffff;
+    background-color: #f76927;
+    cursor: pointer;
+}
+
+.btn-left{
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+}
+main .hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 100px;
+    padding: 100px;
+}
+.hero-left{
+    width: 50%;
+}
+.hero-left h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.hero-left p{
+    margin: 20px;
+
+    font-size: 17px;
+    color: grey;
+    text-align: left;
+}
+.hero-right{
+    position: relative;
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 50px;
+}
+.hero-right h2{
+    position: relative;
+    font-size: 20px;
+    width: 50%;
+}
+.hero-right h2::before{
+    content: "";
+    position: absolute;
+    left:-25px;
+    bottom: 0px;
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+}
+.hero-right img:last-child{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+
+}
+.section-2-top{
+    width: 50%;
+   
+    margin: 70px auto;
+}
+.section-2-top h1{
+    font-size: 45px;
+    text-align: center;
+    line-height: 50px;
+}
+.section-2-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    position: relative;
+    height: 300px;
+    width: 250px;
+   
+    
+}
+.card-1{
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: url(./Assets/Photos/image\ 4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.card-3{
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.card-4{
+    background-image: url(./Assets/Photos/Rectangle\ 18.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.game-name{
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color: #ffffff98;
+    margin-top: 30px;
+}
+.game-name h3{
+    margin-top: 10px;
+}
+.btn-game{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    margin-left: 20px;
+    border: none;
+}
+.section-3{
+    margin-top: 100px;
+    justify-content: center;
+
+}
+.section-3 div:first-child{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.section-3-img{
+    height: 300px;
+    width: 300px;
+}
+.section-3-img img{
+    height: 100%;
+    width: 100%;
+}
+.section-3-artical{
+    width: 50%;
+}
+.section-3-artical h2{
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.section-3-artical p{
+    color: gray;
+    margin: 40px 0px;
+}
+.learnMore{
+    background-color: transparent;
+    color: #d36e1c;
+    margin-left: 30px;
+}
+.section-4 > div{
+    /* background-color: rgb(236, 54, 54); */
+    margin-top: 100px;
+    position: relative;
+}
+.section-4 > div h1{
+    font-size: 40px;
+    width: 40%;
+    margin: 60px;
+}
+.section-4 > div >div{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+.btn-leftArrow , .btn-rightArrow{
+    width: 70px;
+}
+.btn-leftArrow img, .btn-rightArrow img{
+    width: 30px;
+}
+.section-4-card{
+    padding: 10px;
+    /* border: 2px solid black; */
+    flex-basis: 40%;
+    height: 250px;
+    display: flex;
+    gap: 20px;
+}
+.section-4-card div:first-child{
+    width: 45%;
+    height: 100%;
+}
+.section-4-card div:first-child img{
+    width: 100%;
+    height: 100%;
+}
+.section-4-card div:nth-child(2){
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-4-card div:nth-child(2) button{
+    width: 40%;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.section-5{
+    width: 100%;
+    background-color: #201f1f;
+    color: white;
+   
+}
+.section-5 div:first-child{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.section-5 div:first-child >h1{
+    
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 50px 0px;
+    text-align: center;
+}
+.airtical-5{
+   
+   position: relative;
+    /* border: 2px solid red; */
+    
+    
+
+}
+.airtical-5 p{
+    width: 40%;
+    position: absolute;
+    right: 50px;
+    font-size: 21px;
+    line-height: 25px;
+    
+    
+}
+.header {
+    z-index: 1;
+    margin: 50px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    color: #201f1f;
+    font-size: 80px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px gray;
+}
+.contenar{
+    position: relative;
+    top: 0;
+    
+}
+.img-1{
+   
+    width: 350px;
+    height: 400px;
+    margin: 0px 50px;
+}
+.img-2{
+    position: inherit;
+    z-index: 11;
+    width: 250px;
+    height: 300px;
+    margin: 0px 50px;
+}
+.img-3{
+    width: 200px;
+    height: 200px;
+    margin: 0px 50px;
+}
