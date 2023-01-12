@@ -273,10 +273,6 @@ main .hero{
 .airtical-5{
    
    position: relative;
-    /* border: 2px solid red; */
-    
-    
-
 }
 .airtical-5 p{
     width: 40%;
@@ -293,6 +289,7 @@ main .hero{
     position: absolute;
     right: 0;
     top: 20px;
+    text-transform: uppercase;
     color: #201f1f;
     font-size: 80px;
     font-weight: 800;
@@ -320,4 +317,56 @@ main .hero{
     width: 200px;
     height: 200px;
     margin: 0px 50px;
+
+}
+.section-6{
+    background:rgba(0, 0, 0, 0.925);
+    background-blend-mode: darken;
+    overflow: hidden;
+}
+.gamer{
+    margin: 100px auto;
+    width:80% ;
+    height: 50vh;
+    background:rgba(0,0,0,0.7) url(./Assets/Photos/Rectangle\ 606.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.gamer h1{
+    font-size: 50px;
+}
+.gamer p{
+    font-size: 20px;
+    width: 50%;
+    margin: 10px 0px;
+}
+.footer-contenar{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-iteam{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+.footer-iteam img{
+    max-width: 100px;
+}
+
+.footer-1{
+    width: 20%;
 }
