@@ -370,3 +370,7 @@ main .hero{
 .footer-1{
     width: 20%;
 }
+.icon i{
+    font-size: 40px;
+    margin: 0px 10px;
+}
