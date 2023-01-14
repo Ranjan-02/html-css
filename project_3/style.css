@@ -47,6 +47,12 @@
     background-color: #f76927;
     cursor: pointer;
 }
+.btn:hover{
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: #f76927;
+    transition: .4s;
+}
 
 .btn-left{
     background-color: transparent;
@@ -320,7 +326,7 @@ main .hero{
 
 }
 .section-6{
-    background:rgba(0, 0, 0, 0.925);
+    background:#201f1f;
     background-blend-mode: darken;
     overflow: hidden;
 }
