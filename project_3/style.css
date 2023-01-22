@@ -380,3 +380,6 @@ main .hero{
     font-size: 40px;
     margin: 0px 10px;
 }
+.icon i:hover{
+    color: red;
+}
