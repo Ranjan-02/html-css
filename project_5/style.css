@@ -11,6 +11,10 @@
 }
 
 .btn {
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    display: flex;
     width: auto;
     padding: 10px 10px;
     border-radius: 7px;
@@ -111,52 +115,224 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.contenar h1:first-child{
-    /* position: relative; */
-    /* left: 50px; */
-    font-size: 72px;
+
+/* ==============style Space-part================= */
+.header {
+    /* background-color: rgb(177, 52, 52); */
+    margin-bottom: 50px;
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.space-header{
+
+.header h1 {
     text-align: center;
-    margin-bottom: 100px;
+    font-size: 72px;
+    color: #000;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
 }
 
 .space-buttom {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 0px 100px;
 }
-.space-left{
+
+.iteam {
+    margin: 17px 0px;
     width: 200px;
-    display: flex;
-    /* gap: 100px; */
-    gap: 10px;
-    flex-direction: column;
-}
-.space-left-iteam{
-   
+    height: 100px;
+    /* text-align:left; */
     position: relative;
 }
-.space-iteam:nth-child(1){
-   
+
+.space-iteam img,
+h4,
+p {
+    margin: 5px 0px;
+}
+
+.iteam-1 {
+    position: absolute;
+    right: -35px;
+}
+
+.iteam-2 {
+    position: absolute;
+    right: 50px;
+}
+
+.iteam-3 {
+    position: absolute;
+    right: -27px;
+}
+
+.iteam-4 {
+    position: absolute;
+    right: -60px;
+}
+
+/* ===============end of Space-Part============= */
+
+.case {
+    width: 100%;
+    padding: 100px 100px;
+    margin: 70px auto;
+    background-color: #161212;
+}
+
+.case-buttom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.case-left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.case-left img {
+    width: 50%;
+}
+
+.case-right {
+    width: 40%;
+}
+
+.case-right p {
+    line-height: 27px;
+    font-size: 18px;
+}
+
+.btn-case {
+    margin-top: 30px;
+    padding: 7px 20px;
+}
+
+.btn-case p {
+    font-size: 16px;
+}
+
+/* ================End Case-part=============== */
+.music-contenar {
+    width: 70%;
+    background-color: rgb(61, 59, 59);
+    border-radius: 20px;
+    margin: 100px auto;
+    padding: 70px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 0px 30px;
+}
+
+.music-left {
+    /* background-color: rgb(87, 216, 54); */
+    text-transform: capitalize;
+    /* color: crimson; */
+
+}
+
+.music-left>h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.music-left>p {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.chooes-headphone {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.headphone-contenar {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 3%;
+}
+
+.secendary-contenar {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    flex-basis: 30%;
+    background: #11110f;
+    position: relative;
+    padding: 30px;
+}
+
+.secendary-contenar p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 10px;
+}
+
+.secendary-contenar>img {
     position: absolute;
     right: 0;
+    bottom: 10px;
+    padding-right: 10px;
 
-}.space-iteam:nth-child(2){
-   
+}
+
+.img {
+    width: 80px;
     position: absolute;
-    left: 30px;
-}.space-iteam:nth-child(3){
-   
-    position: absolute;
-    left: 50px;
-}.space-iteam:nth-child(4){
-   
-    position: absolute;
-    left: 70px;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-contenar {
+    padding: 150px;
+    background-color: rgb(199, 94, 94);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Email {
+    background: rgb(174, 197, 43);
+    padding: 10px 20px;
+    display: flex;
+    /* width: 70%; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Email>input {
+    width: 50%;
+    outline: none;
+    height: 40px;
+}
+
+.Email > div {
+    height:  fit-content;            
+
+    padding: 0px 10px;
+    background-color: aqua;
+}
+
+.Email>div>span {
+    font-size: 19px;
 }
