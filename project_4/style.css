@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ***************utility clss***************** */
+.bg-image{
+    background-image:linear-gradient(to bottom, rgba(22, 23, 24, 0.753), rgba(36, 33, 35, 0.575)), 
+    url(./assats/Photos/mainBackground.png);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+}
+.contenar{
+    max-width: 1170px;
+    margin: 0px auto;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #576ed6;
+    border:none;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #576ed6;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.navbar::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    
+}
+.logo img{
+    width: 100px;
+}
+.listIteam{
+    display: flex;
+    column-gap: 80px;
+    overflow: hidden;
+}
+.listIteam li{
+    color: #ffffff;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    transition: 0.2s;
+
+}
+.listIteam li:hover{
+    display: block;
+    color:#1441bd;
+    cursor: pointer;
+}
+.hero h1{
+    margin-top: 200px;
+    color: #ffffff;
+    font-size: 70px;
+}
+.hero p{
+    width: 40%;
+    color: #b3a9a9;
+    margin: 20px 0px;
+}
+.buttom-contenar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    background-color: aqua;
+    place-items: center;
+}
+.iteam-div{
+    background-color: #576ed6;
+    height: 300px;
+    width: 300px;
+}
+.img {
+   height: 100%;
+   width: 100%;
+}
