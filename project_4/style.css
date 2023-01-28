@@ -22,7 +22,12 @@
     display: flex;
     justify-content: space-between;
 }
-.btn{
+.header{
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+}
+.btn-primary{
     padding: 15px 20px;
     border-radius: 30px;
     color: #ffffff;
@@ -30,9 +35,10 @@
     border:none;
     transition: .5s;
 }
-.btn:hover{
+.btn-primary:hover{
     background-color: #ffffff;
     color: #576ed6;
+   
 }
 .navbar{
     height: 70px;
@@ -82,19 +88,88 @@
     color: #b3a9a9;
     margin: 20px 0px;
 }
-.buttom-contenar{
+
+
+.card{
+    position: relative;
+    height: 350px;
+    width: 310px;
+    box-shadow: 5px 5px 5px rgba(75, 73, 73, 0.61);
+    border-radius: 30px;
+}
+.img-box{
+    width: 100%;
+    height: 100%;
+  
+
+    
+}
+.img-box img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  
+
+
+}
+.content-box{
+    position: relative;
+    height: 20%;
+    width: 80%;
+    padding: 10px 20px;
+    transform: translateY(-50px);
+    background-color: aliceblue;
+    margin: 0px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+.card:hover .content-box{
+    transform: translateY(0px);
+}
+.content-box h3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.content-box p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.content-box h4{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.card-contenar{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
-    background-color: aqua;
+    gap: 80px 40px;
     place-items: center;
 }
-.iteam-div{
-    background-color: #576ed6;
-    height: 300px;
-    width: 300px;
+.btn{
+    padding: 7px 13px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: .3s;
 }
-.img {
-   height: 100%;
-   width: 100%;
+.btn:hover{
+    background-color: #3c82be;
+    color: white;
+    border: none;
+}
+.card-1 , .card-4 , .card-7{
+    transform: translateY(-50px);
+}
+.card-2 , .card-5 , .card-8{
+    transform: translateY(0px);
+
+}
+.card-3 , .card-6 , .card-9{
+    transform: translateY(50px);
+
 }
