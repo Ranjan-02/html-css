@@ -21,6 +21,7 @@
 .flex{
     display: flex;
     justify-content: space-between;
+    
 }
 .header{
     font-size: 50px;
@@ -87,6 +88,17 @@
     width: 40%;
     color: #b3a9a9;
     margin: 20px 0px;
+}
+.logo-contenar{
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    transform: translateY(-30px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
 
@@ -172,4 +184,22 @@
 .card-3 , .card-6 , .card-9{
     transform: translateY(50px);
 
+}
+.testimonial{
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    background: rgb(177, 119, 119);
+
+}
+.img-testimonial{
+    position: relative;
+    width: 30%;
+    
+}
+.img-testimonial .img{
+    width: 100%;
+}
+.testimonial-airtical{
+ width: 40%;
 }
