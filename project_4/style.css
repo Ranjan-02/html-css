@@ -185,21 +185,26 @@
     transform: translateY(50px);
 
 }
-.testimonial{
-    align-items: center;
-    justify-content: space-between;
-    height: 90vh;
-    background: rgb(177, 119, 119);
-
-}
-.img-testimonial{
-    position: relative;
-    width: 30%;
+.mordern{
     
+    margin-top: 200px;
+    display: flex;
 }
-.img-testimonial .img{
-    width: 100%;
+.test-left{
+    width: 50%;
+    position: relative;
 }
-.testimonial-airtical{
- width: 40%;
+.test-left img:first-child{
+    width: 80%;
+}
+.test-left img:nth-child(2){
+    width:55% ;
+    height: 400px;
+    border-radius: 25px;
+    position: absolute;
+    top: -8%;
+    right: 27%;
+}
+.test-right-artical{
+
 }
