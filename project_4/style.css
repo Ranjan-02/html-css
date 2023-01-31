@@ -186,11 +186,14 @@
 
 }
 .mordern{
-    
+    height: 70vh;
     margin-top: 200px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .test-left{
+    /* margin-left: 40px; */
     width: 50%;
     position: relative;
 }
@@ -199,12 +202,20 @@
 }
 .test-left img:nth-child(2){
     width:55% ;
-    height: 400px;
+    height: 300px;
     border-radius: 25px;
     position: absolute;
-    top: -8%;
-    right: 27%;
+    bottom: 67px;
+    right: 146px;
 }
 .test-right-artical{
+    margin-left: 100px;
+}
+.test-right-artical h1{
+    font-size: 50px;
+}
+.test-right-artical p{
+    width: 80%;
+    margin: 20px 0px;
 
 }
