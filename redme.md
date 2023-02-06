@@ -1,6 +1,4 @@
 ## [project-1](https://github.com/Ranjan-02/html-css/tree/main/project_1)
-
-
 ---
 ## [Project-2](https://github.com/Ranjan-02/html-css/tree/main/project_2)
 ---
