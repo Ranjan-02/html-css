@@ -36,8 +36,8 @@ body{
     align-items: center;
     column-gap: 20px;
     background-color: #101012;   
-     color: #ffffff;
-     font-size: 18px;
+    color: #ffffff;
+    font-size: 18px;
 
 }
 .submit{
@@ -119,9 +119,6 @@ body{
     align-items: center;
     gap: 10px;
 }
-.user1, h2{
-  
-}
 .logomid{
     height: 100px;
     display: grid;
@@ -135,7 +132,6 @@ body{
 }
 .secsection >.top{
     height: 50%;
-    /* width: 70%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,8 +199,6 @@ body{
     color: #ffffff;
 }
 .section3 .top3{
-    /* text-align: center; */
-    /* text-align: justify; */
     margin-top: 50px;
     width: 50%;
     display: flex;
@@ -311,7 +305,13 @@ ul{
 }
 /* *************Responsive********************
 ******************************************** */
-
+@media(max-width: 600px){
+    .firstsection{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
 
 @media(max-width:767px){
     .footer-col{
