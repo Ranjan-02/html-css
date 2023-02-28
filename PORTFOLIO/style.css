@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #000000;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.width-70{
+    width: 70%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    
+}
+.logo{
+    font-size: 2rem;
+    position: relative;
+    color: aqua;
+}
+.logo span{
+    color: #0c0c0c;
+}
+.logo::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: aqua;
+    z-index: -1;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s;
+    
+}
+.home{
+    color:#00ffff;
+}
+li a:hover{
+    color: aqua;
+}
+.contuct{
+    border: 1px solid #00ffff;
+    padding: 10px 20px;
+}
+.contenar{
+    width: 380px;
+    overflow: hidden;
+}
+.contenar .text{
+    font-size: 40px;
+    color:aqua ;
+    font-weight: 600;
+    position: relative;
+    
+}
+.contenar .first-text{
+    color: #FFFFFF;
+}
+ .sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    border-left: 4px solid aqua;
+    animation: animate 4s steps(12) infinite;
+    
+}
+@keyframes animate {
+    40%,60%{
+        left: calc(100% + 5px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+.hero{
+    width: 40%;
+
+}
+.btn{
+    padding: .7rem 1.5rem;
+    background-color: aqua;
+    border: none;
+    border-radius: 1.5rem;
+    transition: .3s;
+}
+.btn:hover{
+    color: #1d1b1b;
+    background-color: #ffffff;
+}
+.para{
+    margin: 2rem 0rem;
+    color: white;
+    width: 80%;
+}
+.img-box{
+    width: 100%;
+}
+.hero-right{
+    width: 50%;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin: 10rem auto;
+    
+}
+.fa-brands{
+    font-size: 100px;
+    color: wheat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

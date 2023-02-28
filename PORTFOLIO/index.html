@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <section class="width-70">
+            <nav>
+                <p class="logo"><span> Port</span>folio</p>
+                <ul>
+                    <li><a href="#" class="home">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Serivice </a></li>
+                    <li><a href="#" class="contuct">contuct Me</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="width-70">
+            <section class="flex">
+                <section class="hero">
+                    <div class="contenar">
+                        <span class="text first-text">i'm a</span>
+                        <span class="text sec-text"></span>
+                    </div>
+                    <div>
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, odio. Accusamus nesciunt
+                            cupiditate voluptate animi ut ipsum nulla similique. Sint blanditiis temporibus soluta dolorum
+                            perferendis esse natus quae culpa aut.</p>
+                        <button class="btn">learn More</button>
+                    </div>
+                    
+                </section>
+                <section class="hero-right">
+                    <div class="img-box">
+                        <img src="./web-developer-portfolio.webp">
+                    </div>
+                </section>
+            </section>
+        </section>
+        
+        
+    </header>
+    <footer>
+    <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
+        
+    </footer>
+    <script>
+        const text = document.querySelector(".sec-text")
+
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Bloger";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "UI deginer";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "Youtuber";
+            }, 8000);
+        }
+        textLoad();
+        setInterval(textLoad, 12000);
+
+    </script>
+</body>
+
+</html>
