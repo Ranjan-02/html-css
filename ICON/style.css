@@ -1,0 +1,40 @@
+*{
+  padding: 0;  
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #fff;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150,.3);
+    transition: .3s ease-out all;
+}
+.icon:hover{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon .fb:hover{
+    background-color: #105c80;
+}
+.fb{
+    color: #1e5cce;
+}
+
