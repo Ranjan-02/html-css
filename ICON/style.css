@@ -34,8 +34,9 @@ body{
 .icon .fb:hover{
     background-color: #105c80;
 }
-.icon i:nth-child(1 ):hover{
+.icon i:nth-child(1):hover{
     background-color: #0f52aa;
+
 }
 .fb{
     color: #1e5cce;
