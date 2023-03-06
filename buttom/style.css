@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#000;
+}
+.contenar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.btn-1{
+    height: 100px;
+    width: 300px;
+    color: #fff;
+    font-size: 2rem;
+    background-color: #d31212;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+
+}
+.btn-1:hover{
+    box-shadow:inset -300px  100px 0 0 #d9e717;
+    
+
+}
