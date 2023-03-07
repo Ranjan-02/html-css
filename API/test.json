@@ -1,0 +1,16 @@
+{
+    "countries": [
+        {
+            "name": "india",
+            "capital": "dhilhi"
+        },
+        {
+            "name": "indonasia",
+            "capital": "jakarta"
+        },
+        {
+            "name": "Bengaladesh",
+            "capital": "dhaka"
+        }
+    ]
+}
