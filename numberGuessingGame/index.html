@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Number-Guessing-Game</title>
   </head>
   <body>
     <div class="wrapper">
       <h1>Guess the Number</h1>
-      <h5>guess the number 1 - 100</h5>
-      <form action="">
-        <label for="value">Enter the Number Between 1 - 100 </label>
+      <h5>guess the number 1 - 10</h5>
+      <form>
+        <label for="value">Enter the Number Between 1 - 10 </label>
         <input type="Tel" id="value" />
-        <button type="submit">Check</button>
+        <button type="submit" id="check">Check</button>
+        <div id="result"></div>
       </form>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
