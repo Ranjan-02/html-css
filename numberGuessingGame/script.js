@@ -9,9 +9,6 @@ document.querySelector("form").onsubmit = (e) => {
   if (Number(inputValue) === rendomNumber) {
     document.getElementById("result").innerHTML =
       "congratulation ! your guessing the number is right";
-    let wrapper = document.querySelector(".wrapper");
-    wrapper.style.backgroundColor = "red";
-    console.log(wrapper);
   } else {
     document.getElementById("result").innerHTML =
       "your guessing the number is worng actually is number is " + rendomNumber;
