@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stytle.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stytle.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="contenar">
-        <span class="text first-text">i'm a</span>
-        <span class="text sec-text"></span>
+      <span class="text first-text">i'm a</span>
+      <span class="text sec-text"></span>
+    </div>
+    <div class="contenar">
+      <span class="text first-text">i'm a</span>
+      <span class="text sec-text"></span>
     </div>
 
-
     <script>
-        const text = document.querySelector(".sec-text")
+      const text = document.querySelector(".sec-text");
 
-        const textLoad = () =>{
-            setTimeout(() => {
-                text.textContent = "Bloger";
-            }, 0);
-            setTimeout(() => {
-               text.textContent = "UI deginer" ;
-            }, 4000);
-            setTimeout(() => {
-                text.textContent = "Youtuber";
-            }, 8000);
-        }
-        textLoad();
-        setInterval(textLoad,12000);
-
+      const textLoad = () => {
+        setTimeout(() => {
+          text.textContent = "Bloger";
+        }, 0);
+        setTimeout(() => {
+          text.textContent = "UI deginer";
+        }, 4000);
+        setTimeout(() => {
+          text.textContent = "Youtuber";
+        }, 8000);
+      };
+      textLoad();
+      setInterval(textLoad, 12000);
     </script>
-
-</body>
+  </body>
 </html>
